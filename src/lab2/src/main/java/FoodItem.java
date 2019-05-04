@@ -10,6 +10,11 @@ public class FoodItem extends GenericItem {
     super(name, price);
   }
 
+  public FoodItem(final String name, final Double price, final short expires) {
+    super(name, price);
+    this.expires = expires;
+  }
+
   public FoodItem(final String name, final Double price, final Category category) {
     super(name, price, category);
   }
@@ -25,11 +30,6 @@ public class FoodItem extends GenericItem {
       final GenericItem analog
   ) {
     super(name, price, category, analog);
-  }
-
-  public FoodItem(GenericItem item) {
-    this(item.name, item.price, item.category, item.analog);
-    id = item.id;
   }
 
   public FoodItem(
