@@ -1,3 +1,5 @@
+package scrat98.github.lab3;
+
 public class U0901Main {
   public static void main(String[] args) {
     final Integer[] intArr = {10, 20, 15};
@@ -12,6 +14,6 @@ public class U0901Main {
     System.out.println(workArrayFloat.sum());
 
     // final String[] stringArray = {"1fasfsa", "fasf"};
-    // final U0901WorkArray<Float> workArrayString = new U0901WorkArray<String>(stringArray);
+    // final scrat98.github.lab3.U0901WorkArray<Float> workArrayString = new scrat98.github.lab3.U0901WorkArray<String>(stringArray);
   }
 }

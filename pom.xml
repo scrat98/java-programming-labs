@@ -14,5 +14,8 @@
         <module>src/lab2</module>
         <module>src/lab3</module>
         <module>src/lab4</module>
+        <module>src/lab5</module>
+        <module>src/lab6</module>
+        <module>src/lab7</module>
     </modules>
 </project>

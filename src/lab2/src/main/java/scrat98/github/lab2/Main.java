@@ -1,3 +1,5 @@
+package scrat98.github.lab2;
+
 public class Main {
   public static void main(String[] args) {
     GenericItem item1 = new GenericItem("name1", 123.0);

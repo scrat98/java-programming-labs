@@ -1,3 +1,5 @@
+package scrat98.github.lab2;
+
 public class GenericItem {
 
   protected Integer id;
@@ -9,6 +11,30 @@ public class GenericItem {
   protected Category category;
 
   protected GenericItem analog;
+
+  public Integer getId() {
+    return id;
+  }
+
+  public void setId(final Integer id) {
+    this.id = id;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public Double getPrice() {
+    return price;
+  }
+
+  public Category getCategory() {
+    return category;
+  }
+
+  public GenericItem getAnalog() {
+    return analog;
+  }
 
   public GenericItem(final String name, final Double price) {
     this(name, price, Category.GENERAL, null);

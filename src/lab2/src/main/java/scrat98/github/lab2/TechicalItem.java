@@ -1,3 +1,5 @@
+package scrat98.github.lab2;
+
 public class TechicalItem extends GenericItem {
 
   private short warrantyTime = 3;

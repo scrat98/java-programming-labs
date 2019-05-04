@@ -1,3 +1,7 @@
+package scrat98.github.lab3;
+
+import scrat98.github.lab2.FoodItem;
+
 public class Main {
   public static void main(String[] args) {
     final String line = "Конфеты ’Маска’;45;120";

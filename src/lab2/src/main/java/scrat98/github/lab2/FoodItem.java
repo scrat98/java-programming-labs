@@ -1,3 +1,5 @@
+package scrat98.github.lab2;
+
 import java.util.Date;
 
 public class FoodItem extends GenericItem {

@@ -1,3 +1,5 @@
+package scrat98.github.lab3;
+
 public class U0901WorkArray<T extends Number> {
 
   private T[] arrNums;
